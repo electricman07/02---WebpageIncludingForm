@@ -17,18 +17,22 @@ h3 {
 }
 
 main {
-  background-color: #f0f8ff;
-  border-radius: 20px;
-  padding: 2rem 4rem;
+  max-width: 1000px;
 }
 
 .container {
-  max-width: 1000px;
   display: block;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .section-container {
+  background-color: #f0f8ff;
+  width: 100%;
+  border-radius: 20px;
+  padding: 2rem 4rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
@@ -54,4 +58,23 @@ main {
 
 .left {
   margin-top: 2rem;
+}
+
+.form-container {
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+
+  display: block;
+  margin: 0 auto;
+  background-color: #f0f8ff;
+  border-radius: 20px;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
 }
