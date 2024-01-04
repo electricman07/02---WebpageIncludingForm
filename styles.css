@@ -27,6 +27,9 @@ main {
   width: 80%; 
 }
 
+span {
+    padding-left: 20px;
+}
 .container {
   display: block;
   margin: 0 auto;
