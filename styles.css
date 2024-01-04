@@ -109,6 +109,9 @@ button {
   font-weight: 700;
 }
 
+footer p {
+  text-align: center;
+}
 @media screen and (max-width: 600px) {
   .section-container {
     grid-template-columns: 1fr;
